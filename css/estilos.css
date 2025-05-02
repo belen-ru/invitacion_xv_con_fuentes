@@ -1,0 +1,96 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+  background:white;
+  color:black;
+}
+.background {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/images/52.png') no-repeat center center/cover;
+  
+}
+main {
+  animation: fadeIn 1s ease-in forwards;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.seccion {
+  min-height: 100vh;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.portada img{
+  width: 100%;
+  height: auto;
+}
+.portada h1 {
+  font-family: 'Great Vibes', cursive; color: #d8b4f8; font-size: 3em; animation: fadeIn 2s; }
+.contador #cuenta-regresiva { font-size: 2em; color: #f8c8dc; }
+.foto img {
+  max-width: 90%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 192, 203, 0.5);
+  transition: transform 0.5s ease;
+}
+.foto img:hover { transform: scale(1.03); }
+.fecha h2 { font-size: 2.5em; color: #e0aaff; }
+.ubicacion h3, .vestimenta h3 { color: #dda0dd; }
+.vestimenta p { font-style: italic; color: #ffc0cb; }
+.sobres .icono-sobre { font-size: 3em; color: #ffc0cb; margin-top: 15px; }
+.sobres .icono-sobre::before { content: '\f0e0'; font-family: 'Font Awesome 5 Free'; font-weight: 900; }
+.deseos textarea {
+  width: 80%; height: 100px;
+  border-radius: 10px; border: none;
+  padding: 10px;
+}
+.deseos button {
+  margin-top: 10px;
+  background-color: #d8b4f8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#btn-musica {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 10px 15px;
+  background: #d8b4f8;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#bienvenida {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 2000;
+  color: white;
+}
+#bienvenida button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background: #e0aaff;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
