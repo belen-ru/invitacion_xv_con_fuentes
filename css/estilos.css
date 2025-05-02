@@ -23,21 +23,23 @@ main {
   to { opacity: 1; transform: translateY(0); }
 }
 .seccion {
-  min-height: 100vh;
+  
   padding: 50px 20px;
   text-align: center;
 }
 
 .portada img{
-  width: 100%;
-  height: auto;
+  max-width: 90%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 192, 203, 0.5);
+  transition: transform 0.5s ease;
 }
 .portada h1 {
   font-family: 'Great Vibes', cursive; color: #d8b4f8; font-size: 3em; animation: fadeIn 2s; }
 .contador #cuenta-regresiva { font-size: 2em; color: #f8c8dc; }
 .foto img {
-  max-width: 90%;
-  border-radius: 15px;
+  max-width: 100%;
+  border-radius: 0px;
   box-shadow: 0 0 10px rgba(255, 192, 203, 0.5);
   transition: transform 0.5s ease;
 }
