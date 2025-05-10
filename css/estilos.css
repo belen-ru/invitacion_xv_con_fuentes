@@ -12,7 +12,7 @@ body, html {
   top: 0; left: 0;
   width: 100%;
   height: 100%;
-  background: url('/images/51.png') no-repeat center center/cover;
+  background: url('/images/5.webp') no-repeat center center/cover;
   color: red;
 }
 main {
@@ -24,7 +24,7 @@ main {
 }
 .seccion {
   
-  padding: 50px 20px;
+  padding: 50px 10px;
   text-align: center;
 }
 
@@ -34,8 +34,26 @@ main {
   box-shadow: 0 0 10px rgba(255, 192, 203, 0.5);
   transition: transform 0.5s ease;
 }
+
+.overlay-text {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+ margin: 1rem;
+  text-align: left;
+  color: white;
+  font-size: 90%;
+}
+
+
+.overlay-text h1{
+  margin: 0%;
+}
+.overlay-text p{
+  margin-top: 0%;
+}
 .portada h1 {
-  font-family: 'Great Vibes', cursive; color: #d8b4f8; font-size: 3em; animation: fadeIn 2s; }
+  font-family: 'Great Vibes', cursive; color: plum; font-size: 3em; animation: fadeIn 2s; }
 .contador #cuenta-regresiva { font-size: 2em; color: #f8c8dc; }
 .foto img {
   max-width: 100%;
